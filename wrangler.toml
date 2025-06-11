@@ -4,8 +4,19 @@ compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
+routes = [
+  { pattern = "rdv.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.rdv.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.rdv.biz.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.rdv.biz.id", custom_domain = true },
+  { pattern = "investors.spotify.com.rdv.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.rdv.biz.id", custom_domain = true },
+  { pattern = "cache.netflix.com.rdv.biz.id", custom_domain = true },
+  { pattern = "blog.webex.com.rdv.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.rdv.biz.id", custom_domain = true },
+]
 [vars]
-# PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
+PROXYIP = "138.2.74.219:28616"
+UUID = "6c7707b8-6f34-4aa6-9b11-7a6fb579f03c"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
